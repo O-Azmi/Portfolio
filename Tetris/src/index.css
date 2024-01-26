@@ -52,10 +52,11 @@ header{
   padding-top: 2em;
 }
 .page-title{
-  font-size: 4em;
+  font-size: 3em;
   letter-spacing: 0.2em;
   font-weight: 700;
   animation: colors 20s infinite linear;
+  text-align: center;
 }
 @keyframes colors {
   12.5% {
@@ -83,8 +84,8 @@ header{
     color: white;
   }
 }
-header ul{
+.accounts{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
-
